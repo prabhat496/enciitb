@@ -440,7 +440,7 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
-/* Contact Page */
+/* Contact Page
 #contactwrap {
 	background: url(../img/contact.jpg) no-repeat center top;
 	margin-top: -60px;
@@ -461,7 +461,7 @@ csmall {
     -o-background-size: cover;
     background-size: cover;
 }
-
+ */
 /* Blog Page */
 .popular-posts { 
 	margin: 0px;
