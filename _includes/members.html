@@ -1,0 +1,45 @@
+<div class="container mtb">
+    <div class="row centered">
+        <h3 class="mb">MEET OUR TEAM</h3>
+        
+        {% for member in site.managers %}
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ managers.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                        {% for entry in managers.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div><!-- he bg -->
+                </div><!-- he view -->		
+            </div><!-- he wrap -->
+            <h4>{{ managers.name }}</h4>
+            <h5 class="ctitle">{{ managers.position }}</h5>
+            <p>{{ managers.text }}</p>
+            <div class="hline"></div>
+        </div><! --/col-lg-3 -->	 	
+        {% endfor %}
+        
+{% for member in site.conveners %}
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ conveners.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                        {% for entry in conveners.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div><!-- he bg -->
+                </div><!-- he view -->		
+            </div><!-- he wrap -->
+            <h4>{{ conveners.name }}</h4>
+            <h5 class="ctitle">{{ conveners.position }}</h5>
+            <p>{{ conveners.text }}</p>
+            <div class="hline"></div>
+        </div><! --/col-lg-3 -->	 	
+        {% endfor %}
+    </div><! --/row -->
+</div><! --/container -->
