@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Energy Club IITB
 #email: your-email@domain.com
-description: Energy Club is all about the Ideas and possibilites for a sustainable futue.
+description: "This page is dedicated to Energy Club IITB . Its is the result of motivation by the disaster of climate change and need of renewable energy sources . We discuss about the innovation and ideas and possibilities in modern energy technologies "
 baseurl: "/enciitb" # the subpath of your site, e.g. /blog
 url: "https://prabhat496.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -28,8 +28,8 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 
 colors:  #in hex code if not noted else
   primary:  "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254"#"247,0,49"rgb of the primary. Needed in some places for the transparency effect.
-  secondary:   "#384452"#"#33004D"
+  primary_rgb: "0,179,254" #"247,0,49"rgb of the primary. Needed in some places for the transparency effect.
+  secondary:   "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
@@ -98,7 +98,7 @@ conveners:
         url: mailto:name@domain.com
       - title: facebook
         url: https://www.facebook.com/soumil.chaubal
-  - name: Prabaht Ranjan
+  - name: Prabhat Ranjan
     position: Convener
     text: Be honest to yourself and eventually everything will fall into place.
     img: prabhat.jpg
@@ -119,9 +119,9 @@ conveners:
 
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Energy Club is all about the enthusiatic people to come together and be a part of better and sustainable future. "
+about: "Energy Club, IIT Bombay is a student organization started by students of the Department of Energy Science and Engineering, bringing energy conservation and sustainable development enthusiasts under one roof."
 
-# Testimonial content. Shown on Home and About page.
+# Quote content. Shown on Home and About page.
 quote:
     message: “We are the first generation to be able to end poverty and the last generation that can take steps to avoid the worst impact of climate change.  ”
     author: Ban Ki-moon
