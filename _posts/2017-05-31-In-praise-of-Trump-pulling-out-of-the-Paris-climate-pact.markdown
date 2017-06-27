@@ -4,9 +4,9 @@ title: "In praise of Trump pulling out of the Paris climate pact"
 date: 2017-05-31 16:54:46
 author: KEN WARD
 categories:
-- blogs
-- paris climate pact
-- environment
+- Blogs
+- Paris climate pact
+- Environment
 img: post02.jpg
 thumb: thumb02.jpg
 ---

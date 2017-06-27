@@ -4,8 +4,8 @@ title: "Abandoned Unconventional Natural Gas Wells: A Looming Problem for Pennsy
 date: 2017-06-13 16:54:46
 author: Assistant Professor Jeremy Weber and Andrew Earle
 categories:
-- blogs
-- natural Resource
+- Blogs
+- Natural Resource
 - Energy Security
 - Fossil
 img: post03.jpg

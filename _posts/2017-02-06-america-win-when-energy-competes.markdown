@@ -4,9 +4,9 @@ title: "Americans win when energy competes"
 date: 2017-02-06 16:54:46
 author: DOUG HAUGH
 categories:
-- blogs
-- economics
-- environment
+- Blogs
+- Economics
+- Environment
 img: post01.jpg
 thumb: thumb01.jpg
 ---
